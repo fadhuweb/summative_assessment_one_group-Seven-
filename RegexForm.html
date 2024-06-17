@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Subscription Form</title>
+    <link rel="stylesheet" href="RegexForm.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="form-title">Subscribe to our Newsletter</h1>
+        <form id="subscription-form" aria-labelledby="form-title">
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" aria-required="true" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" aria-required="true" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" aria-required="true" required>
+            </div>
+            <div class="form-group">
+                <label>Subscription Preferences</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="preferences" value="Technology"> Technology</label>
+                    <label><input type="checkbox" name="preferences" value="Health"> Health</label>
+                    <label><input type="checkbox" name="preferences" value="Finance"> Finance</label>
+                    <label><input type="checkbox" name="preferences" value="Science"> Science</label>
+                    <label><input type="checkbox" name="preferences" value="Travel"> Travel</label>
+                    <label><input type="checkbox" name="preferences" value="Food"> Food</label>
+                    <label><input type="checkbox" name="preferences" value="Sports"> Sports</label>
+                    <label><input type="checkbox" name="preferences" value="Entertainment"> Entertainment</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" aria-required="true" aria-describedby="password-requirements" required>
+                <div id="password-requirements">Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one special character (!@#$%^&*), and one number.</div>
+            </div>
+            <button type="submit">Subscribe</button>
+            <div id="error-message" role="alert" style="display:none; color:red;"></div>
+            <div id="success-message" role="alert" style="display:none; color:green;">Subscription successful!</div>
+        </form>
+    </div>
+    <script src="RegexForm.js"></script>
+</body>
+</html>
