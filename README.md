@@ -87,8 +87,8 @@ newsletter-subscription-form/
 Contributors.
 
 Member 1: Theodora Egbunike
-Member 2 MichaelMusembi
-Member 3 Fadhlullah Abdulazeez
-Member 4 Ganza Didier
-Member 5 James Jok Dut Akuei
+Member 2: Michael Musa Musembi
+Member 3: Fadhlullah Abdulazeez
+Member 4: Ganza Didier
+Member 5: James Jok Dut Akuei
 Each team member contributed to various parts of the project, including HTML structure, CSS styling, and JavaScript validation implementation.
