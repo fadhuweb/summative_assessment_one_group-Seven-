@@ -10,26 +10,32 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, form, input, label, button, div {
 
 /* Body styling */
 body {
-    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: linear-gradient(to bottom, rgba(210,210,255,255), rgba(242,213,255,254));
+
 }
 
 /* Container styling */
 .container {
-    background: #fff;
-    padding: 20px;
-    max-width: 500px;
+    display: flex;
+    background: #ced7f3;
+    margin: 50px;
+    padding: 0;
+    max-width: 1000px;
     width: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgb(7, 39, 110);
     border-radius: 8px;
+    flex-direction: row;
+    gap: 55px;
 }
 
 /* Form title */
 h1 {
     margin-bottom: 20px;
+    margin-top: 20px;
     text-align: center;
     color: #333;
 }
@@ -51,9 +57,10 @@ h1 {
 .form-group input[type="password"] {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 14px;
+    border: 1px solid #0e5398;
+    border-radius: 15px;
+    font-size: 18px;
+
 }
 
 /* Checkbox group styling */
@@ -71,10 +78,10 @@ h1 {
 button {
     display: inline-block;
     width: 100%;
-    padding: 10px 15px;
-    background-color: #007BFF;
+    padding: 10px 25px;
+    background-color: #4CAF50;
     border: none;
-    border-radius: 4px;
+    border-radius: 14px;
     color: white;
     font-size: 16px;
     cursor: pointer;
